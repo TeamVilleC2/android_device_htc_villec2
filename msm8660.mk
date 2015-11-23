@@ -116,3 +116,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.hw=1 \
     dev.pm.dyn_samplingrate=1 \
     ro.opengles.version=131072
+    
+# L-Rom apps
+PRODUCT_PACKAGES += \
+	OpenCamera
