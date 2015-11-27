@@ -29,8 +29,8 @@ PRODUCT_PACKAGES += \
 # Wifi
 $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/firmware/bcm4329/device-bcm.mk)
 
-+# Bluetooth/wifi Firmware
-+$(call inherit-product-if-exists, device/htc/villec2/bcm_hcd.mk)
+# Bluetooth/wifi Firmware
+$(call inherit-product-if-exists, device/htc/villec2/bcm_hcd.mk)
 
 # Boot ramdisk setup
 PRODUCT_COPY_FILES += \
