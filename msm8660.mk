@@ -119,4 +119,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     
 # L-Rom apps
 PRODUCT_PACKAGES += \
-	OpenCamera
+	HiLocker \
+	QuickPic
